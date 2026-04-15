@@ -15,7 +15,7 @@ export default function Home() {
     <>
       {/* HERO */}
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0f172a]">
-        <div className="absolute inset-0 bg-[url('/images/hero.jpg')] bg-cover bg-center opacity-40" />
+        <div className="absolute inset-0 bg-[url('./images/hero.jpg')] bg-cover bg-center opacity-40" />
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center text-white pt-16 sm:pt-0">
           <motion.div

@@ -22,24 +22,24 @@ interface Toast {
 }
 
 const menuItems: MenuItem[] = [
-  { id: 1, name: "Espresso", category: "coffee", price: 3.50, description: "Bold and rich single shot", image: "/images/coffee.jpg" },
-  { id: 2, name: "Cappuccino", category: "coffee", price: 4.50, description: "Espresso with steamed milk foam", image: "/images/coffee.jpg" },
-  { id: 3, name: "Latte", category: "coffee", price: 4.75, description: "Smooth espresso with silky milk", image: "/images/coffee.jpg" },
-  { id: 4, name: "Mocha", category: "coffee", price: 5.25, description: "Espresso, chocolate & steamed milk", image: "/images/coffee.jpg" },
-  { id: 5, name: "Chai Latte", category: "tea", price: 4.50, description: "Spiced black tea with steamed milk", image: "/images/coffee.jpg" },
-  { id: 6, name: "Matcha Latte", category: "tea", price: 5.00, description: "Premium Japanese green tea", image: "/images/coffee.jpg" },
-  { id: 7, name: "Butter Croissant", category: "bakery", price: 3.25, description: "Flaky, golden butter pastry", image: "/images/pastry.jpg" },
-  { id: 8, name: "Blueberry Muffin", category: "bakery", price: 3.75, description: "Fresh baked with wild blueberries", image: "/images/pastry.jpg" },
-  { id: 9, name: "Chocolate Croissant", category: "bakery", price: 3.50, description: "Filled with rich dark chocolate", image: "/images/pastry.jpg" },
-  { id: 10, name: "Avocado Toast", category: "sandwiches", price: 7.50, description: "Smashed avocado, chili flakes, poached egg", image: "/images/food.jpg" },
-  { id: 11, name: "Turkey Club", category: "sandwiches", price: 8.75, description: "Turkey, bacon, lettuce, tomato on sourdough", image: "/images/food.jpg" },
-  { id: 12, name: "Caprese Panini", category: "sandwiches", price: 7.25, description: "Mozzarella, tomato, basil, balsamic", image: "/images/food.jpg" },
+  { id: 1, name: "Espresso", category: "coffee", price: 3.50, description: "Bold and rich single shot", image: "./images/coffee.jpg" },
+  { id: 2, name: "Cappuccino", category: "coffee", price: 4.50, description: "Espresso with steamed milk foam", image: "./images/coffee.jpg" },
+  { id: 3, name: "Latte", category: "coffee", price: 4.75, description: "Smooth espresso with silky milk", image: "./images/coffee.jpg" },
+  { id: 4, name: "Mocha", category: "coffee", price: 5.25, description: "Espresso, chocolate & steamed milk", image: "./images/coffee.jpg" },
+  { id: 5, name: "Chai Latte", category: "tea", price: 4.50, description: "Spiced black tea with steamed milk", image: "./images/coffee.jpg" },
+  { id: 6, name: "Matcha Latte", category: "tea", price: 5.00, description: "Premium Japanese green tea", image: "./images/coffee.jpg" },
+  { id: 7, name: "Butter Croissant", category: "bakery", price: 3.25, description: "Flaky, golden butter pastry", image: "./images/pastry.jpg" },
+  { id: 8, name: "Blueberry Muffin", category: "bakery", price: 3.75, description: "Fresh baked with wild blueberries", image: "./images/pastry.jpg" },
+  { id: 9, name: "Chocolate Croissant", category: "bakery", price: 3.50, description: "Filled with rich dark chocolate", image: "./images/pastry.jpg" },
+  { id: 10, name: "Avocado Toast", category: "sandwiches", price: 7.50, description: "Smashed avocado, chili flakes, poached egg", image: "./images/food.jpg" },
+  { id: 11, name: "Turkey Club", category: "sandwiches", price: 8.75, description: "Turkey, bacon, lettuce, tomato on sourdough", image: "./images/food.jpg" },
+  { id: 12, name: "Caprese Panini", category: "sandwiches", price: 7.25, description: "Mozzarella, tomato, basil, balsamic", image: "./images/food.jpg" },
 ];
 
 const testimonials = [
-  { name: "Sarah Chen", text: "The best latte I've had in years. The atmosphere makes you want to stay all day!", rating: 5, image: "/images/barista.jpg" },
-  { name: "Marcus Rodriguez", text: "Their croissants are absolutely heavenly. Perfect spot to work or catch up with friends.", rating: 5, image: "/images/interior2.jpg" },
-  { name: "Elena Patel", text: "Cozy vibes and incredible coffee. I've become a regular here for my morning ritual.", rating: 5, image: "/images/hero.jpg" },
+  { name: "Sarah Chen", text: "The best latte I've had in years. The atmosphere makes you want to stay all day!", rating: 5, image: "./images/barista.jpg" },
+  { name: "Marcus Rodriguez", text: "Their croissants are absolutely heavenly. Perfect spot to work or catch up with friends.", rating: 5, image: "./images/interior2.jpg" },
+  { name: "Elena Patel", text: "Cozy vibes and incredible coffee. I've become a regular here for my morning ritual.", rating: 5, image: "./images/hero.jpg" },
 ];
 
 const categories = [
@@ -281,7 +281,7 @@ function App() {
 
       {/* ── HERO ──────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex items-center justify-center pt-14 bg-black overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero.jpg')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-[url('./images/hero.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-black/58" />
 
         <div className="relative z-10 text-center px-4 sm:px-6 max-w-3xl">
@@ -360,7 +360,7 @@ function App() {
 
             <motion.div {...fadeUp(0.12)} className="relative mt-6 md:mt-0">
               <img
-                src="/images/interior2.jpg"
+                src="./images/interior2.jpg"
                 alt="Cafe Interior"
                 loading="lazy"
                 className="w-full aspect-[4/3] object-cover rounded-3xl shadow-xl"
@@ -466,21 +466,21 @@ function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-3 sm:gap-4">
             <motion.div {...fadeUp()} className="md:col-span-7 rounded-2xl sm:rounded-3xl overflow-hidden">
-              <img src="/images/hero.jpg" alt="Cafe Interior" loading="lazy" className="w-full h-48 sm:h-auto object-cover md:aspect-video" />
+              <img src="./images/hero.jpg" alt="Cafe Interior" loading="lazy" className="w-full h-48 sm:h-auto object-cover md:aspect-video" />
             </motion.div>
             <div className="md:col-span-5 grid grid-cols-2 md:grid-cols-1 gap-3 sm:gap-4">
               <motion.div {...fadeUp(0.06)} className="rounded-2xl sm:rounded-3xl overflow-hidden">
-                <img src="/images/barista.jpg" alt="Barista" loading="lazy" className="w-full aspect-[4/3] object-cover" />
+                <img src="./images/barista.jpg" alt="Barista" loading="lazy" className="w-full aspect-[4/3] object-cover" />
               </motion.div>
               <motion.div {...fadeUp(0.1)} className="rounded-2xl sm:rounded-3xl overflow-hidden">
-                <img src="/images/interior2.jpg" alt="Interior" loading="lazy" className="w-full aspect-[4/3] object-cover" />
+                <img src="./images/interior2.jpg" alt="Interior" loading="lazy" className="w-full aspect-[4/3] object-cover" />
               </motion.div>
             </div>
             <motion.div {...fadeUp(0.06)} className="md:col-span-5 rounded-2xl sm:rounded-3xl overflow-hidden">
-              <img src="/images/food.jpg" alt="Food" loading="lazy" className="w-full h-48 md:h-full object-cover md:aspect-square" />
+              <img src="./images/food.jpg" alt="Food" loading="lazy" className="w-full h-48 md:h-full object-cover md:aspect-square" />
             </motion.div>
             <motion.div {...fadeUp(0.1)} className="md:col-span-7 rounded-2xl sm:rounded-3xl overflow-hidden">
-              <img src="/images/pastry.jpg" alt="Pastries" loading="lazy" className="w-full h-48 md:h-full object-cover md:aspect-video" />
+              <img src="./images/pastry.jpg" alt="Pastries" loading="lazy" className="w-full h-48 md:h-full object-cover md:aspect-video" />
             </motion.div>
           </div>
         </div>
@@ -562,7 +562,7 @@ function App() {
           </motion.div>
 
           <motion.div {...fadeUp(0.1)} className="relative rounded-3xl overflow-hidden h-72 sm:h-[420px] lg:h-[520px] shadow-2xl">
-            <img src="/images/interior2.jpg" alt="Cafe location" loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
+            <img src="./images/interior2.jpg" alt="Cafe location" loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/30 to-black/70" />
             <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10 text-white">
               <div className="text-xs uppercase tracking-widest mb-1 sm:mb-2">FIND US</div>

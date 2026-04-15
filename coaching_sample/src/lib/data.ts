@@ -38,7 +38,7 @@ export const courses: Course[] = [
     students: 450,
     description: "Comprehensive preparation for JEE Main & Advanced with expert faculty and regular mock tests.",
     fees: "₹1,25,000",
-    image: "/images/course-jee.jpg",
+    image: "./images/course-jee.jpg",
     highlights: ["Weekly tests", "Doubt clearing sessions", "Study material included", "Performance tracking"]
   },
   {
@@ -49,7 +49,7 @@ export const courses: Course[] = [
     students: 320,
     description: "Intensive coaching for NEET with focus on Biology, Chemistry & Physics. Includes lab sessions.",
     fees: "₹1,35,000",
-    image: "/images/course-neet.jpg",
+    image: "./images/course-neet.jpg",
     highlights: ["NCERT focused", "Practical demos", "Previous year papers", "Biology special classes"]
   },
   {
@@ -60,7 +60,7 @@ export const courses: Course[] = [
     students: 180,
     description: "Complete foundation to advanced level preparation for Prelims, Mains & Interview.",
     fees: "₹95,000",
-    image: "/images/course-upsc.jpg",
+    image: "./images/course-upsc.jpg",
     highlights: ["Current affairs", "Essay writing", "Answer evaluation", "Personality development"]
   },
   {
@@ -71,7 +71,7 @@ export const courses: Course[] = [
     students: 650,
     description: "Targeted preparation for IBPS, SBI, SSC CGL, CHSL and other competitive exams.",
     fees: "₹65,000",
-    image: "/images/course-jee.jpg",
+    image: "./images/course-jee.jpg",
     highlights: ["Quant & Reasoning", "English mastery", "GK updates", "Speed building"]
   }
 ];
@@ -85,7 +85,7 @@ export const faculty: FacultyMember[] = [
     experience: "18 years",
     qualification: "Ph.D. Physics, IIT Delhi",
     bio: "Former faculty at FIITJEE. Specialized in Mechanics and Electrodynamics. Known for simplifying complex concepts.",
-    image: "/images/faculty1.jpg"
+    image: "./images/faculty1.jpg"
   },
   {
     id: 2,
@@ -95,7 +95,7 @@ export const faculty: FacultyMember[] = [
     experience: "14 years",
     qualification: "M.Sc. Zoology, NET Qualified",
     bio: "Passionate educator with deep knowledge in Human Physiology and Genetics. Helped over 200 students crack NEET.",
-    image: "/images/faculty3.jpg"
+    image: "./images/faculty3.jpg"
   },
   {
     id: 3,
@@ -105,7 +105,7 @@ export const faculty: FacultyMember[] = [
     experience: "16 years",
     qualification: "M.Sc. Math, IIT Roorkee",
     bio: "Expert in Calculus and Algebra. Innovative teaching methods with real-life applications.",
-    image: "/images/faculty2.jpg"
+    image: "./images/faculty2.jpg"
   },
   {
     id: 4,
@@ -115,7 +115,7 @@ export const faculty: FacultyMember[] = [
     experience: "12 years",
     qualification: "M.Sc. Organic Chemistry",
     bio: "Specializes in Organic & Inorganic Chemistry. Focuses on reaction mechanisms and problem solving strategies.",
-    image: "/images/faculty1.jpg"
+    image: "./images/faculty1.jpg"
   }
 ];
 
@@ -125,7 +125,7 @@ export const testimonials: Testimonial[] = [
     name: "Arjun Patel",
     rank: "AIR 47 - JEE 2024",
     quote: "The structured approach and constant motivation from faculty helped me achieve my dream. The mock tests were game changers.",
-    image: "/images/results.jpg"
+    image: "./images/results.jpg"
   },
   {
     id: 2,

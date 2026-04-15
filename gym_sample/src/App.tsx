@@ -34,16 +34,16 @@ interface Testimonial {
 }
 
 const classes: ClassType[] = [
-  { id: 1, name: "HIIT BLAST", description: "High-intensity interval training to torch calories and build endurance.", duration: "45 min", level: "Intermediate", image: "/images/hiit.jpg", icon: <Dumbbell className="w-5 h-5 sm:w-6 sm:h-6" /> },
-  { id: 2, name: "POWER YOGA", description: "Strength-building flows that improve flexibility and mental focus.", duration: "60 min", level: "All Levels", image: "/images/yoga.jpg", icon: <Heart className="w-5 h-5 sm:w-6 sm:h-6" /> },
-  { id: 3, name: "STRENGTH LAB", description: "Heavy lifting focused on compound movements and progressive overload.", duration: "60 min", level: "Advanced", image: "/images/weightlifting.jpg", icon: <Trophy className="w-5 h-5 sm:w-6 sm:h-6" /> },
-  { id: 4, name: "CARDIO BURN", description: "High-energy cardio sessions designed to maximize fat burn.", duration: "50 min", level: "Beginner", image: "/images/cardio.jpg", icon: <Clock className="w-5 h-5 sm:w-6 sm:h-6" /> },
+  { id: 1, name: "HIIT BLAST", description: "High-intensity interval training to torch calories and build endurance.", duration: "45 min", level: "Intermediate", image: "./images/hiit.jpg", icon: <Dumbbell className="w-5 h-5 sm:w-6 sm:h-6" /> },
+  { id: 2, name: "POWER YOGA", description: "Strength-building flows that improve flexibility and mental focus.", duration: "60 min", level: "All Levels", image: "./images/yoga.jpg", icon: <Heart className="w-5 h-5 sm:w-6 sm:h-6" /> },
+  { id: 3, name: "STRENGTH LAB", description: "Heavy lifting focused on compound movements and progressive overload.", duration: "60 min", level: "Advanced", image: "./images/weightlifting.jpg", icon: <Trophy className="w-5 h-5 sm:w-6 sm:h-6" /> },
+  { id: 4, name: "CARDIO BURN", description: "High-energy cardio sessions designed to maximize fat burn.", duration: "50 min", level: "Beginner", image: "./images/cardio.jpg", icon: <Clock className="w-5 h-5 sm:w-6 sm:h-6" /> },
 ];
 
 const trainers: Trainer[] = [
-  { id: 1, name: "Marcus Rivera", role: "Head Strength Coach", bio: "Former powerlifter with 12 years transforming athletes and everyday warriors.", image: "/images/trainer1.jpg", specialties: ["Powerlifting", "Olympic Lifting", "Nutrition"] },
-  { id: 2, name: "Elena Vargas", role: "Yoga & Mobility Specialist", bio: "Certified yoga instructor and movement therapist helping members find balance.", image: "/images/trainer2.jpg", specialties: ["Yoga", "Mobility", "Recovery"] },
-  { id: 3, name: "Jamal Thompson", role: "HIIT & Conditioning Coach", bio: "Ex-Marine turned fitness coach specializing in metabolic conditioning.", image: "/images/trainer.jpg", specialties: ["HIIT", "Bootcamp", "Endurance"] },
+  { id: 1, name: "Marcus Rivera", role: "Head Strength Coach", bio: "Former powerlifter with 12 years transforming athletes and everyday warriors.", image: "./images/trainer1.jpg", specialties: ["Powerlifting", "Olympic Lifting", "Nutrition"] },
+  { id: 2, name: "Elena Vargas", role: "Yoga & Mobility Specialist", bio: "Certified yoga instructor and movement therapist helping members find balance.", image: "./images/trainer2.jpg", specialties: ["Yoga", "Mobility", "Recovery"] },
+  { id: 3, name: "Jamal Thompson", role: "HIIT & Conditioning Coach", bio: "Ex-Marine turned fitness coach specializing in metabolic conditioning.", image: "./images/trainer.jpg", specialties: ["HIIT", "Bootcamp", "Endurance"] },
 ];
 
 const testimonials: Testimonial[] = [
@@ -253,7 +253,7 @@ function App() {
       <section className="relative min-h-screen flex items-center justify-center pt-16 bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url('/images/hero-gym.jpg')` }}
+          style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url('./images/hero-gym.jpg')` }}
         />
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">

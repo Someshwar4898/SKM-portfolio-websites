@@ -43,7 +43,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-[#0A2540] text-white overflow-x-hidden">
       {/* HERO */}
       <section className="relative h-screen flex items-center pt-20">
-        <div className="absolute inset-0 bg-[url('/images/hero.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-[url('./images/hero.jpg')] bg-cover bg-center">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/70 to-black/80" />
         </div>
 
@@ -269,10 +269,10 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { name: "Malibu", count: "42", image: "/images/property1.jpg", desc: "California Coast", status: "buy" },
-              { name: "Aspen", count: "18", image: "/images/bedroom.jpg", desc: "Colorado Mountains", status: "buy" },
-              { name: "Hamptons", count: "31", image: "/images/property2.jpg", desc: "New York", status: "buy" },
-              { name: "Miami", count: "64", image: "/images/property3.jpg", desc: "Florida", status: "rent" },
+              { name: "Malibu", count: "42", image: "./images/property1.jpg", desc: "California Coast", status: "buy" },
+              { name: "Aspen", count: "18", image: "./images/bedroom.jpg", desc: "Colorado Mountains", status: "buy" },
+              { name: "Hamptons", count: "31", image: "./images/property2.jpg", desc: "New York", status: "buy" },
+              { name: "Miami", count: "64", image: "./images/property3.jpg", desc: "Florida", status: "rent" },
             ].map((dest, idx) => (
               <Link key={idx} to={`/properties?search=${dest.name}`}>
                 <motion.div

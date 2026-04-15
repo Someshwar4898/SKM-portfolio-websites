@@ -37,9 +37,9 @@ const services: Service[] = [
 ];
 
 const dentists: Dentist[] = [
-  { name: "Dr. Elena Rodriguez", role: "Lead Dentist", image: "/images/dentist1.jpg", bio: "With over 15 years of experience, Dr. Rodriguez specializes in cosmetic and restorative dentistry.", specialties: ["Cosmetics", "Implants"] },
-  { name: "Dr. Marcus Chen", role: "Orthodontist", image: "/images/dentist2.jpg", bio: "Dr. Chen is passionate about creating beautiful smiles through modern orthodontic techniques.", specialties: ["Braces", "Invisalign"] },
-  { name: "Dr. Sophia Patel", role: "Pediatric Specialist", image: "/images/patient-smile.jpg", bio: "Dr. Patel creates a warm, welcoming environment for our youngest patients.", specialties: ["Kids", "Preventive"] },
+  { name: "Dr. Elena Rodriguez", role: "Lead Dentist", image: "./images/dentist1.jpg", bio: "With over 15 years of experience, Dr. Rodriguez specializes in cosmetic and restorative dentistry.", specialties: ["Cosmetics", "Implants"] },
+  { name: "Dr. Marcus Chen", role: "Orthodontist", image: "./images/dentist2.jpg", bio: "Dr. Chen is passionate about creating beautiful smiles through modern orthodontic techniques.", specialties: ["Braces", "Invisalign"] },
+  { name: "Dr. Sophia Patel", role: "Pediatric Specialist", image: "./images/patient-smile.jpg", bio: "Dr. Patel creates a warm, welcoming environment for our youngest patients.", specialties: ["Kids", "Preventive"] },
 ];
 
 const testimonials: Testimonial[] = [
@@ -247,7 +247,7 @@ function App() {
       {/* ── HERO ──────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_0.8px,transparent_1px)] bg-[length:4px_4px]" />
-        <img src="/images/hero-bg.jpg" alt="Modern dental clinic" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="./images/hero-bg.jpg" alt="Modern dental clinic" loading="eager" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50" />
 
         <div className="relative z-10 max-w-5xl px-4 sm:px-6 text-center text-white">
@@ -356,7 +356,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 sm:gap-16 items-center">
           <motion.div {...fadeUp()}>
             <img
-              src="/images/patient-smile.jpg"
+              src="./images/patient-smile.jpg"
               alt="Happy patient at Lumina Dental"
               loading="lazy"
               className="rounded-3xl shadow-2xl w-full"

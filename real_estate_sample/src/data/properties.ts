@@ -23,7 +23,7 @@ export const properties: Property[] = [
     bedrooms: 5,
     bathrooms: 6,
     area: 6200,
-    image: "/images/property1.jpg",
+    image: "./images/property1.jpg",
     status: "buy",
     description: "Stunning oceanfront estate with panoramic Pacific views, infinity pool, and private beach access.",
     features: ["Infinity Pool", "Private Beach", "Wine Cellar", "Home Theater"]
@@ -37,7 +37,7 @@ export const properties: Property[] = [
     bedrooms: 4,
     bathrooms: 4,
     area: 3800,
-    image: "/images/property2.jpg",
+    image: "./images/property2.jpg",
     status: "buy",
     description: "Luxurious beachfront home with direct ocean access and breathtaking sunrise views.",
     features: ["Ocean Access", "Rooftop Terrace", "Gourmet Kitchen", "Spa Bathroom"]
@@ -51,7 +51,7 @@ export const properties: Property[] = [
     bedrooms: 3,
     bathrooms: 3,
     area: 2450,
-    image: "/images/property3.jpg",
+    image: "./images/property3.jpg",
     status: "buy",
     description: "Ultra-modern penthouse in the heart of Manhattan with floor-to-ceiling windows and city views.",
     features: ["City Skyline Views", "Private Elevator", "Chef's Kitchen", "Gym"]
@@ -65,7 +65,7 @@ export const properties: Property[] = [
     bedrooms: 6,
     bathrooms: 7,
     area: 7800,
-    image: "/images/property4.jpg",
+    image: "./images/property4.jpg",
     status: "buy",
     description: "Architectural masterpiece nestled in the hills with resort-style grounds and guest house.",
     features: ["Guest House", "Pool & Spa", "Tennis Court", "Wine Room"]
@@ -79,7 +79,7 @@ export const properties: Property[] = [
     bedrooms: 4,
     bathrooms: 4,
     area: 4100,
-    image: "/images/hero.jpg",
+    image: "./images/hero.jpg",
     status: "rent",
     description: "Elegant coastal villa available for long-term lease. Steps from the beach.",
     features: ["Ocean Views", "Private Deck", "Fire Pit", "Chef Kitchen"]
@@ -93,7 +93,7 @@ export const properties: Property[] = [
     bedrooms: 2,
     bathrooms: 3,
     area: 2100,
-    image: "/images/interior1.jpg",
+    image: "./images/interior1.jpg",
     status: "rent",
     description: "Sophisticated downtown loft with industrial-chic design and skyline views.",
     features: ["Open Concept", "Rooftop Access", "Smart Home", "Concierge"]
@@ -107,7 +107,7 @@ export const properties: Property[] = [
     bedrooms: 5,
     bathrooms: 4,
     area: 4600,
-    image: "/images/kitchen.jpg",
+    image: "./images/kitchen.jpg",
     status: "buy",
     description: "Spacious contemporary home in prestigious neighborhood with backyard oasis.",
     features: ["Pool", "Home Office", "3-Car Garage", "Smart Security"]
@@ -121,7 +121,7 @@ export const properties: Property[] = [
     bedrooms: 7,
     bathrooms: 8,
     area: 9200,
-    image: "/images/bedroom.jpg",
+    image: "./images/bedroom.jpg",
     status: "buy",
     description: "Exceptional waterfront estate with private dock, boat house, and mountain views.",
     features: ["Private Dock", "Boat House", "Movie Theater", "Spa"]
