@@ -1,0 +1,173 @@
+🌐 WEBSITE CONTENT (FINAL VERSION)
+🏷️ HERO SECTION
+
+Headline:
+
+Practical Websites. Real Growth.
+
+Subheading:
+
+We are Yuvraj Singh Kaviya and Lokendra Singh Rathore—a developer and a digital marketer working together to help businesses build a strong and effective online presence.
+
+CTA Buttons:
+
+View Our Work
+Get Started
+🧭 ABOUT US
+
+We are a small team focused on delivering simple, effective digital solutions for growing businesses.
+
+Yuvraj Singh Kaviya handles development—building websites that are fast, structured, and reliable.
+Lokendra Singh Rathore focuses on marketing—ensuring those websites reach the right audience and generate results.
+
+We work directly with clients, understand their needs, and provide solutions that are practical—not complicated.
+
+Our approach is straightforward:
+build what is needed, and make it work properly.
+
+🛠️ SERVICES
+💻 Website Development
+
+Clean and responsive websites designed to represent your business clearly and professionally.
+
+🎯 Landing Pages
+
+Focused pages built to generate leads and improve conversions.
+
+⚡ Website Optimization
+
+Improving speed, performance, and usability for better user experience.
+
+📈 Digital Marketing
+
+SEO and social media strategies to help your business reach more people.
+
+🔧 Maintenance & Support
+
+Ongoing updates and fixes to keep your website running smoothly.
+
+🧠 OUR WORK APPROACH
+
+We don’t overpromise. We deliver what actually helps your business.
+
+Clear communication
+Simple and effective solutions
+Focus on performance and usability
+Work delivered on time
+Long-term support when needed
+💻 DEVELOPMENT (YUVRAJ SINGH KAVIYA)
+
+Title:
+
+Development Focus
+
+Websites are built with attention to structure, speed, and usability.
+
+Skills:
+
+HTML, CSS, JavaScript
+Responsive Design
+Performance Optimization
+UI Implementation
+Git & Version Control
+
+The goal is simple:
+a website that works smoothly and represents your business properly.
+
+📊 MARKETING (LOKENDRA SINGH RATHORE)
+
+Title:
+
+Marketing Focus
+
+A website is only useful if people can find it and trust it.
+
+Core Areas:
+
+Search Engine Optimization (SEO)
+Social Media Marketing
+Lead Generation
+Content Planning
+
+The focus is on bringing the right audience—not just more traffic.
+
+🧩 PORTFOLIO
+
+Title:
+
+Sample Work
+
+Some of the website samples we have built for different industries:
+
+Coaching Institute Website
+Gym/Fitness Website
+Real Estate Website
+Café Website
+Dental Clinic Website
+
+Each project is built to match the needs of that specific business type.
+
+🤝 WHY WORK WITH US
+
+We keep things simple and practical.
+
+Direct communication with both of us
+No unnecessary complexity
+Affordable solutions
+Combined development and marketing approach
+Focus on real results
+📞 CONTACT
+
+Headline:
+
+Let’s Work Together
+
+If you need a website or want to improve your online presence, feel free to reach out.
+
+Form Fields:
+
+Name
+Email
+Phone
+Message
+
+Closing Line:
+
+We’ll respond with clear next steps.
+
+🧾 FOOTER
+
+Built and managed by
+Yuvraj Singh Kaviya (Development)
+Lokendra Singh Rathore (Marketing)
+
+Simple work. Reliable results.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SERVICES---
+
+Basic Static Website (4–6 pages)
+Basic SEO (site indexing) 
+Domain Purchase
+Hosting
+Monthly Maintenance 
+Backend Integrated Website
+Simple Mobile App
+Backend Integrated App
+Google Ads Management 
+Meta Ads Management 
+Landing Page Design
+Microsite Creation
+Custom Portal
+E-commerce Integration
+Branding Package
+Website Audit
+Lead Generation Strategy
+
+------------------------------------------------------------------------------------------------------------
+
+in sample add the _sample folder websites e.g., cafe_sample, gym_sample, real_estate_sample, Coaching_sample, dental_sample.
+link them to it, its for github and navigation.
+
+------------------------------------------------------------------------------------------------------------
