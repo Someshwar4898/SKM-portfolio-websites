@@ -21,7 +21,7 @@ import {
 } from 'lucide-react'
 import yuvrajPhoto from './assets/Yuvraj_singh.png'
 import lokendraPhoto from './assets/Lokendra.jpeg'
-import logoImg from './assets/logo.jpeg'
+import logoImg from './assets/logo.png'
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -624,11 +624,14 @@ function App() {
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
               <p className="text-sm font-semibold tracking-[0.2em] uppercase text-white/50">Get in Touch</p>
               <div className="mt-5 space-y-4 text-sm text-white/70">
-                <a href="mailto:contact@skmdigital.in" className="flex items-center gap-3 hover:text-white transition">
-                  <Mail size={16} className="text-cyan-300" /> contact@skmdigital.in
+                <a href="mailto:omshivshakti2468@gmail.com" className="flex items-center gap-3 hover:text-white transition">
+                  <Mail size={16} className="text-cyan-300" /> skmdigital@gmail.com
                 </a>
-                <a href="tel:+910000000000" className="flex items-center gap-3 hover:text-white transition">
-                  <Phone size={16} className="text-cyan-300" /> +91 00000 00000
+                <a href="tel:+918233156509" className="flex items-center gap-3 hover:text-white transition">
+                  <Phone size={16} className="text-cyan-300" /> +91 8233156509
+                </a>
+                <a href="tel:+919928777896" className="flex items-center gap-3 hover:text-white transition">
+                  <Phone size={16} className="text-cyan-300" /> +91 9928777896
                 </a>
               </div>
             </div>

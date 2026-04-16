@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"nojekyll|\\\\.github\" find d:/class/SKM-portfolio-websites -name \".nojekyll\" find d:/class/SKM-portfolio-websites -name \"*.html\")",
+      "Bash(xargs grep *)",
+      "Bash(npm --version)",
+      "Bash(sed -i \"s|src=\\\\\"/images/|src=\\\\\"./images/|g; s|image: \\\\\"/images/|image: \\\\\"./images/|g; s|url\\('/images/|url\\('./images/|g\" d:/class/SKM-portfolio-websites/cafe_sample/src/App.tsx)",
+      "Bash(sed -i \"s|image: \\\\\"/images/|image: \\\\\"./images/|g\" d:/class/SKM-portfolio-websites/coaching_sample/src/lib/data.ts)",
+      "Bash(sed -i \"s|url\\('/images/|url\\('./images/|g\" d:/class/SKM-portfolio-websites/coaching_sample/src/pages/Home.tsx)",
+      "Bash(sed -i \"s|src=\\\\\"/images/|src=\\\\\"./images/|g; s|image: \\\\\"/images/|image: \\\\\"./images/|g\" d:/class/SKM-portfolio-websites/dental_sample/src/App.tsx)",
+      "Bash(sed -i \"s|src=\\\\\"/images/|src=\\\\\"./images/|g; s|image: \\\\\"/images/|image: \\\\\"./images/|g; s|url\\('/images/|url\\('./images/|g\" d:/class/SKM-portfolio-websites/gym_sample/src/App.tsx)",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "Bash(wait)"
+    ]
+  }
+}
